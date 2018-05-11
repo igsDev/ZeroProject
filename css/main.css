@@ -1,0 +1,16 @@
+body, html {
+    height: 100%;
+}
+
+#jumbo {
+    height: 30%;
+    background: url("../img/backg1.jfif")  no-repeat center center fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card-profilo {
+    /*transform: rotate(90deg);*/
+
+}
