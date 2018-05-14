@@ -4,9 +4,10 @@
 $hostdb = "localhost";
 $userdb = "root";
 $passwdb = "";
+$namedb = "zeroproject";
 
 //  connect
-$conn = mysqli_connect($hostdb, $userdb, $passwdb);
+$conn = mysqli_connect($hostdb, $userdb, $passwdb, $namedb);
 
 //  check connection
 if(!$conn) {
