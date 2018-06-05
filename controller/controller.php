@@ -44,7 +44,7 @@ switch ($mode) {
     case 'view_post':
         header('Content-Type: application/json');
         $json = array();
-        $sql = "SELECT * FROM posts ORDER BY datatime LIMIT 5";
+        $sql = "SELECT * FROM posts ORDER BY datatime DESC";
         $res = mysqli_query($conn , $sql);
         if(mysqli_num_rows($res) > 0 ){
             while($row = mysqli_fetch_assoc($res)){
